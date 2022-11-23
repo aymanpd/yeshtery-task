@@ -1,0 +1,66 @@
+@import "../../styles.scss";
+
+.header {
+  padding: 10px 0 0px;
+  .headerContent {
+    display: flex;
+    align-items: center;
+    .search {
+      position: relative;
+      flex-grow: 1;
+      .searchIcon {
+        position: absolute;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        top: 50%;
+        left: 5px;
+        transform: translateY(-50%);
+      }
+      input {
+        display: block;
+        padding: 10px;
+        border-radius: 20px;
+        width: 250px;
+        padding-left: 40px;
+      }
+    }
+    .logo {
+      img {
+        display: block;
+        width: 40%;
+        margin: auto;
+      }
+    }
+    .icons {
+      display: flex;
+      flex-grow: 1;
+      justify-content: flex-end;
+      font-weight: bold;
+      .iconContainer {
+        cursor: pointer;
+        position: relative;
+        &:not(:last-child) {
+          margin-right: 1.5rem;
+        }
+        .cartAlert {
+          position: absolute;
+          top: -3px;
+          left: 15px;
+          background-color: $--secondaryColor;
+          text-align: center;
+          font-size: 0.7rem;
+          line-height: 15px;
+          font-weight: bold;
+          width: 15px;
+          height: 15px;
+          border-radius: 50%;
+        }
+      }
+
+      svg {
+        vertical-align: text-bottom;
+      }
+    }
+  }
+}

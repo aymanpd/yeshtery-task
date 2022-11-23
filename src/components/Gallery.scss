@@ -1,0 +1,19 @@
+.gallery {
+  img {
+    cursor: pointer;
+  }
+  .galleryArrow {
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #474747;
+    opacity: 0.8;
+    &.back {
+      left: -10px;
+    }
+    &.forward {
+      right: -10px;
+    }
+  }
+}

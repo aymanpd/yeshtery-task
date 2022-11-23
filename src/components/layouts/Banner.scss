@@ -1,0 +1,28 @@
+@import "../../styles.scss";
+
+.topBanner {
+  background-color: $--secondaryColor;
+  padding: 12px 0;
+  box-shadow: 0 0.87px 2px #00000040;
+  .sideTap {
+    margin-right: 20px;
+  }
+  .bannerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .icons {
+      font-size: 0.85rem;
+      display: flex;
+      font-weight: bold;
+      justify-content: space-between;
+      .iconContainer:not(:last-child) {
+        margin-right: 1.5rem;
+      }
+      svg {
+        margin-right: 0.5rem;
+        vertical-align: middle;
+      }
+    }
+  }
+}

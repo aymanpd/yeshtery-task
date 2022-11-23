@@ -1,0 +1,59 @@
+@import "../styles.scss";
+
+.productBox {
+  border: 1px solid #ececec;
+  padding: 10px;
+  .preview {
+    width: 100%;
+  }
+  .details {
+    display: flex;
+    .price {
+      .final,
+      .regular {
+        font-weight: bolder;
+        font-size: 1.5rem;
+      }
+      .final {
+        margin-bottom: 0.6rem;
+        color: $--primaryColor;
+        display: block;
+      }
+      .regular {
+        color: #a7a9ac;
+        text-decoration: line-through;
+        font-size: 0.9rem;
+      }
+      .currency {
+        font-weight: normal;
+        font-size: 1.1rem;
+        font-weight: bold;
+      }
+      .discount {
+        background-color: $--secondaryColor;
+        font-size: 0.9rem;
+        padding: 2px 10px;
+        font-weight: bold;
+        margin-left: 1rem;
+      }
+      padding-bottom: 2rem;
+    }
+    .logo {
+      margin-left: auto;
+      height: 40px;
+    }
+  }
+  .rating {
+    text-align: center;
+    span {
+      vertical-align: middle;
+    }
+  }
+  .pickup {
+    text-align: center;
+    font-size: 0.9rem;
+    span {
+      font-weight: bold;
+    }
+  }
+}

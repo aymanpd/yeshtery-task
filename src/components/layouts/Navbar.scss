@@ -1,0 +1,13 @@
+.navbar {
+  background-color: black;
+  color: #fff;
+
+  ul {
+    font-weight: bold;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 10px 0;
+    text-transform: capitalize;
+  }
+}
