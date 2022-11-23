@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/yeshtery-task/static/css/main.86c91e84.css",
-    "main.js": "/yeshtery-task/static/js/main.47128af7.js",
+    "main.js": "/yeshtery-task/static/js/main.5b7e2da6.js",
     "static/js/787.38b984e0.chunk.js": "/yeshtery-task/static/js/787.38b984e0.chunk.js",
     "index.html": "/yeshtery-task/index.html",
     "main.86c91e84.css.map": "/yeshtery-task/static/css/main.86c91e84.css.map",
-    "main.47128af7.js.map": "/yeshtery-task/static/js/main.47128af7.js.map",
+    "main.5b7e2da6.js.map": "/yeshtery-task/static/js/main.5b7e2da6.js.map",
     "787.38b984e0.chunk.js.map": "/yeshtery-task/static/js/787.38b984e0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86c91e84.css",
-    "static/js/main.47128af7.js"
+    "static/js/main.5b7e2da6.js"
   ]
 }
